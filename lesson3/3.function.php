@@ -9,11 +9,13 @@
 <body>
     <div class="container">
         <?php
-            $name = "Maksim";
+            function exampleFunction($arg_1, $arg_2, /* ..., */ $arg_n)
+            {
+                echo "Example function.\n";
+                return $retval;
+            }
 
-            // echo($name); //Always displays the value of the variable
-            //var_dump($name); //Displays type and the value of the variable
-            // print_r($name); //Displays the most human readable foramt of the variable
+            exampleFunction(1,2,3);
 
         ?>
     </div>

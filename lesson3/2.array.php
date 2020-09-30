@@ -9,23 +9,25 @@
 <body>
     <div class="container">
         <?php
-            echo("<pre>");
+            echo("<pre>"); //HTML tag for Preformatted string
             $nameArray = ["Maksim", "Ilya", "Avanindra"];
 
             // var_dump($nameArray);
             print_r($nameArray);
 
-            print_r("<br>");
+            // print_r("<br>");
 
 
-            $menuArray = array ( 0 => "Home",
-                                 1 => "Departments",
-                                 2 => "Academics",
-                                 3 => "Contact",
-                                );
-            //Demonstrate effect of string keys
+            // $menuArray = array ( 0 => "Home", // Change 0 to become a string
+            //                      1 => "Departments", //Change it out of order
+            //                      2 => "Academics",
+            //                      3 => "Contact",
+            //                     );
+            
+            // print_r("number of emelement in the array menuArray is " . count($menuArray));
 
-            print_r($menuArray);
+            // print_r($menuArray);
+            
             
 
             // This:
