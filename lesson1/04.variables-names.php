@@ -8,32 +8,28 @@
     </head>
     <body>
 
-        <?php 
-
-            $name = "Maksim"; //String
-            $age = 18; // Integer
-            $bill  = 20.5; //Float
-            $show = TRUE; //Boolean 
-            //Validity of Variable Name
-
-
-            // $4site = 'not yet';     // invalid; starts with a number
-            $_4site = 'not yet';    // valid; starts with an underscore
-            $täyte = 'mansikka';    // valid; 'ä' is (Extended) ASCII 228.
-            
-
-
-        ?> 
         <div class="container">
             <?php
-                echo "<strong> Details". ' </strong> <br>';
+                $name = "Maksim"; //String
+                $age = 18; // Integer
+                $bill  = 20.5; //Float
+                $show = TRUE; //Boolean 
+                //Validity of Variable Name
 
-                if ($show) {
-                    echo "Name: " .$name . '<br>';
-                    echo "Age: ". $age . '<br>';
-                    echo "Bill: ". $bill. '<br>';
 
-                }
+                // $4site = 'not yet';     // invalid; starts with a number
+                $_4site = 'not yet';    // valid; starts with an underscore
+                $täyte = 'mansikka';    // valid; 'ä' is (Extended) ASCII 228.
+                // $my-age = 45; //Not Valid
+            
+            
+
+            
+                echo "Name: " .$name . '<br>';
+                echo "Age: ". $age . '<br>';
+                echo "Bill: ". $bill. '<br>';
+
+                
 
                 
             ?>

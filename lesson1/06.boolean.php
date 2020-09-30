@@ -9,11 +9,11 @@
     <body>
         <div class="container">
             <?php
-                $bool1 = FALSE;
+                $bool1 = TRUE;
                 $bool2 = TRUE;
 
                 if ($bool1) {
-                    echo "This will not be rendered in the webpage";
+                    echo "This will not be rendered in the webpage" . "<br>";
                 }
 
                 if ($bool2) {

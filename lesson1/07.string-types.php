@@ -14,23 +14,25 @@
 
     //Single Quoted
     $showSingleQuoted = TRUE;
-    $a = "A string variable";
+    $a = 'A string variable';
     $single1 = 'You may type in one line';
     $single2 = 'You may type in one line
+
+
             or multiple lines';
     // If you want to escape any character use \
-    $single3 = 'Student said "I\'ll learn PHP" '; // Outputs: Student said "I\'ll learn PHP
+    $single3 = 'Student said "I\'ll learn PHP" '; // Outputs: Student said "I'll learn PHP"
     // If you want to print a backslash(\) any character use \\
     $single4 = 'You have delted the file C:\\newfile !'; // Outputs: You have delted the file C:\newfile
 
     $single5 = 'Value of variable a $a will not be shown'; //Single quote does not show a variable value
-    $single6 = 'Backslach before symbol \$a will not be skipped'; //Single quote does not escape any othe instance
+    $single6 = 'Backslash before symbol \n will not be skipped'; //Single quote does not escape any othe instance
 
     //Double Quoted
     //Anything which can be done in single quotes can also be done using double quotes
-    $showDoubleQuoted = FALSE;
+    $showDoubleQuoted = TRUE;
     $double1 = "This will expand: \n a newline"; //Skips the n but HTML cannot display a newline
-    $double2 = "This will not expand: $a a newline"; //Double displays the contenst of the variable
+    $double2 = "Value of variable a is: $a "; //Double displays the contenst of the variable
     $double3 = "Symbol \$a will  shown"; //Double quote escapes the value of variable if backslash
 
 ?> 

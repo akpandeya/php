@@ -9,7 +9,7 @@
     <body>
 
         <?php 
-            $name = "Makism";
+            $name = "Maksim";
         ?> 
         <div class="container">
             <h1> <?php echo $name; ?> </h1>
