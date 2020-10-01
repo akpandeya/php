@@ -11,8 +11,8 @@
         <?php
             $name = "Maksim";
 
-            // echo($name); //Always displays the value of the variable
-            //var_dump($name); //Displays type and the value of the variable
+            // echo $name; //Always displays the value of the variable
+            // var_dump($name); //Displays type and the value of the variable
             // print_r($name); //Displays the most human readable foramt of the variable
 
         ?>

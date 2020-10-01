@@ -31,7 +31,8 @@
     //Double Quoted
     //Anything which can be done in single quotes can also be done using double quotes
     $showDoubleQuoted = TRUE;
-    $double1 = "This will expand: \n a newline"; //Skips the n but HTML cannot display a newline
+
+    $double1 = "<pre> This will expand: \n a newline </pre>"; //Skips the n but HTML cannot display a newline
     $double2 = "Value of variable a is: $a "; //Double displays the contenst of the variable
     $double3 = "Symbol \$a will  shown"; //Double quote escapes the value of variable if backslash
 

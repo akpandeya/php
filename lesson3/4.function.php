@@ -9,10 +9,10 @@
 <body>
     <div class="container">
         <?php
-            function exampleFunction($arg_1, $arg_2, /* ..., */ $arg_n)
+            function exampleFunction($arg_1, $arg_2, /* ..., */ $arg_n="Defulat Value")
             {
                 echo "Example function.\n";
-                return $retval;
+                return $return;
             }
 
             exampleFunction(1,2,3);
